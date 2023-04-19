@@ -8,7 +8,9 @@ import java.io.IOException;
 public class Test {
     public static void main(String[] args) throws IOException {
         BufferedReaderEx bufferedReaderEx = new BufferedReaderEx();
+        ScannerEx sc = new ScannerEx();
 
         bufferedReaderEx.readALine();
+        sc.readTwoNumberPlus();
     }
 }
