@@ -12,5 +12,8 @@ public class Test {
 
         bufferedReaderEx.readALine();
         sc.readTwoNumberPlus();
+
+        User user = new User("alexgim", "010-xxxx-xxxx", 32);
+        System.out.println(user.toString());
     }
 }
